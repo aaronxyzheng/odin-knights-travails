@@ -43,13 +43,11 @@ function shortestPath(input, output) {
             // Printing the steps of orders
             for(let area of moveHistory) {
                 console.log(area);
-                console.log()
-                console.log("   |")
-                console.log("   v")
-                console.log()
             }
 
             console.log(output);
+
+            return;
         }
 
 
